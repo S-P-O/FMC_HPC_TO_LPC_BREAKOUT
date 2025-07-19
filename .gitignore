@@ -1,0 +1,48 @@
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.bkp
+*.$$$
+
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
+
+# Various Simulation files
+*.raw
+*.op.raw
+*.plt
+*.net
+*.log
+
+#OpenDocument stuff
+*.~lock.*
+
+#Archives and screenshots from production
+Production_Feedback
+T1A0.rar
+/T1A0/Ansys
+/T1A1
